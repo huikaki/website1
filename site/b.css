@@ -1,0 +1,20 @@
+#headercontainer {
+    background-color:brown ;
+    border-radius: 0;
+    border: 0;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgb(131, 77, 77);
+
+}
+#logo-img {
+    background-image: url("../site/assest/aop.JPG");
+    margin: 0;
+    width: 150px;
+    height: 150px;
+}
