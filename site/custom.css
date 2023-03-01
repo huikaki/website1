@@ -74,3 +74,24 @@ div.container{
     right: 5px;
     top: 5px;
 }
+i.fa-solid{
+    padding-left: 15px;
+}
+.form-control{
+    width: 100px;
+}
+.d-flex {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    display: block;
+
+}
+.navbar-toggler{
+    position: absolute;
+    top: 50px;
+}
+ul.navbar-nav{
+    position: absolute;
+    right: 5px;
+}
