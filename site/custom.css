@@ -1,4 +1,4 @@
-html {
+ html {
     height: 100%;
     width: 100%;
 }
@@ -74,9 +74,7 @@ div.container{
     right: 5px;
     top: 5px;
 }
-i.fa-solid{
-    padding-left: 15px;
-}
+
 .form-control{
     width: 100px;
 }
@@ -94,4 +92,21 @@ i.fa-solid{
 ul.navbar-nav{
     position: absolute;
     right: 5px;
+}
+
+.nav-item a {
+    text-align: center;
+}
+.nav-item :hover {
+    background: #8f9ce4;
+}
+#phone{
+    margin-top: 10px;
+}
+#phone > div {
+    text-align: right;
+    color: #000;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    font-size: small;
 }
