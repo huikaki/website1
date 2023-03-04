@@ -13,7 +13,7 @@ body {
     box-sizing: border-box;
 }
 #header-nav {
-    background-color:rgb(93, 150, 235) ;
+    background-color:rgb(164, 179, 201)!important ;
     border-radius: 0;
     border: 0;
     position: relative;;
@@ -97,18 +97,15 @@ ul.navbar-nav{
 .nav-item a {
     text-align: center;
 }
-.nav-item :hover {
+.nav-item :hover{
     background: #8f9ce4;
 }
 #phone{
     margin-top: 10px;
 }
-#phone > div {
-    text-align: right;
-    color: #000;
-    padding-right: 15px;
-    padding-bottom: 10px;
-    font-size: small;
+#phone > a{
+    text-decoration: none;
+    color: #000;;
 }
 .navbar-header button.navbar-toggler, .navbar-header .navbar-toggler-icon{
     border: 1px solid #8f9ce4;
@@ -128,9 +125,6 @@ button.navbar-toggler{
     }
 }
 @media (max-width: 991px){
-    div.navbar-header > form.d-flex{
-        display: none !important;
-    }
     header > nav#header-nav{
         width: 100% !important;
     }
@@ -139,4 +133,26 @@ button.navbar-toggler{
         right: 5px;
         top: 5px
     }
+    .navbar-nav{
+        width: 100%;
+        background-color:rgb(164, 179, 201);
+        position:sticky !important;
+    }
+    .nav-item {
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+    .nav-item :hover {
+        background: #c0c4df;
+        width: auto;
+    }
+    .nav-link{
+        text-align: center;
+    }
+    i.fa-solid {
+        align-items: center;
+    }
+    
+
 }
