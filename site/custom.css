@@ -156,3 +156,15 @@ button.navbar-toggler{
     
 
 }
+#main-jum{
+   
+    padding-left: 0!important;
+    padding-right: 0 !important;
+    margin-top: 5px!important;
+}
+.p-5 {
+    padding: 5px;
+}
+.bg-primary{
+    background-color: beige!important;
+}
