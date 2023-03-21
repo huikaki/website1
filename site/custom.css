@@ -157,14 +157,25 @@ button.navbar-toggler{
 
 }
 #main-jum{
-   
-    padding-left: 0!important;
-    padding-right: 0 !important;
+    padding: 0!important;
     margin-top: 5px!important;
+    margin-bottom: 10px!important;
 }
-.p-5 {
-    padding: 5px;
-}
+
 .bg-primary{
     background-color: beige!important;
+}
+.skypic{
+    height: 100%!important;
+}
+#menu-tiles, #specials-tiles, #map-tiles{
+    height: 250px;
+    width: 100%;
+    margin-bottom: 15px;
+    position: relative;
+    border: 2px solid #000;
+    overflow: hidden;
+}
+#menu-tiles:hover, #specials-tiles:hover, #map-tiles:hover {
+    box-shadow: 0 1px 5px 1px #c0c4df;
 }
