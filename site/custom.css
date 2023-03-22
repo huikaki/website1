@@ -7,13 +7,13 @@ body {
     font-family: '', sans-serif;
     min-height: 100%;
     min-width: 100%;
-    background-color:rgb(9, 73, 161) ;
+    background-color:rgba(8, 127, 238, 0.781) ;
 }
 * { 
     box-sizing: border-box;
 }
 #header-nav {
-    background-color:rgb(164, 179, 201)!important ;
+    background-color:rgba(8, 20, 37, 0.377)!important ;
     border-radius: 0;
     border: 0;
     position: relative;;
@@ -29,7 +29,7 @@ div.container{
 }
 .navbar-brand h1{
     font-family: 'Courier New', Courier, monospace;
-    color: #8f9ce4;
+    color: #cc1313;
     font-size: 1.5em;
     text-transform: uppercase;
     font-weight: bold;
@@ -52,8 +52,8 @@ div.container{
 }
 
 #logo-img {
-    background: url("../assest/aop.JPG") no-repeat;
-    background-size: 150px 100px;
+    background: url("../assest/AJ2.png") no-repeat;
+    background-size: 80% 100%;
     width: 150px;;
     height: 100px;;
     margin-right: 10px;
@@ -167,6 +167,7 @@ button.navbar-toggler{
 }
 .skypic{
     height: 100%!important;
+    width: 100%;
 }
 #menu-tiles, #specials-tiles, #map-tiles{
     height: 250px;
@@ -179,3 +180,49 @@ button.navbar-toggler{
 #menu-tiles:hover, #specials-tiles:hover, #map-tiles:hover {
     box-shadow: 0 1px 5px 1px #c0c4df;
 }
+#menu-tiles{
+    background: url("assest/jordan1.jpg") no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+#specials-tiles{
+    background: url("assest/jordan2.jpg") no-repeat;
+    background-position: center;
+    background-size: 100% 100%;   
+}
+.row{
+    margin: 0%;
+}
+#map-tiles{
+    background: url() no-repeat;
+    background-position: center;
+}
+
+#specials-tiles>span, #menu-tiles>span, #map-tiles>span {
+    display: flex;
+    width: 100%;
+    background-color: #000;
+    opacity: 0.5;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    text-transform: none;
+    color: #f5f5f5;
+}
+
+#specials-tiles>span:hover, #menu-tiles>span:hover,#map-tiles>span {
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+.panel-footer{
+    margin-top: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color:rgba(8, 20, 37, 0.377);
+    border-top: 0;
+    color: #fdfdfd;
+    line-height: 18px;
+    font-style: italic;
+}
+
