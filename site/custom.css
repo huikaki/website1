@@ -7,13 +7,13 @@ body {
     font-family: '', sans-serif;
     min-height: 100%;
     min-width: 100%;
-    background-color:rgba(8, 127, 238, 0.781) ;
+    background-color:rgba(106, 183, 255, 0.781) ;
 }
 * { 
     box-sizing: border-box;
 }
 #header-nav {
-    background-color:rgba(8, 20, 37, 0.377)!important ;
+    background-color:rgba(9, 54, 117, 0.377)!important ;
     border-radius: 0;
     border: 0;
     position: relative;;
@@ -224,5 +224,46 @@ button.navbar-toggler{
     color: #fdfdfd;
     line-height: 18px;
     font-style: italic;
+}
+.text-centre{
+    text-align: center;
+    color: #fdfdfd;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+
+/* Menu Page */
+
+.cate-tile{
+    position: relative;
+    border: 2px solid #000;
+    overflow: hidden;
+    width: 200px;
+    height: 230px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.cate-tile span{
+    position: absolute;
+    bottom: 0;
+    text-transform: uppercase;
+    width: 100%;
+    height: 27px;
+    text-align: center;
+    background-color: #000;
+    color: #fdfdfd;
+    line-height: 27px;
+    font-size:small;
+}
+.cate-tile:hover{
+    box-shadow: 0 1px 5px 1px #f5f5f5;
+
+}
+div.img{
+    width: 600px !important;
+    height: 600px !important;
 }
 
